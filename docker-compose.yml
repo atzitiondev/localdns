@@ -1,7 +1,7 @@
 version: '2'
 services:
   app:
-    image: node:latest
+    image: node:10.18.1
     command: "npm run watch"
     working_dir: /app
     links:
@@ -12,7 +12,7 @@ services:
     ports:
      - "3000:80"
   dns:
-    image: node:latest
+    image: node:10.18.1
     command: "npm run watch dns-server"
     working_dir: /app
     links:
@@ -26,7 +26,7 @@ services:
      - "53:53"
      - "53:53/udp"
   db:
-    image: mongo:latest
+    image: mongo:3.4
     command: "--smallfiles"
     volumes:
      - ./db:/data/db
