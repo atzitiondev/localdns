@@ -13,7 +13,7 @@ The easiest way to keep your mapping up to date is to add the following line to 
 ### ddclient
 You can use [ddclient](https://github.com/ddclient/ddclient) to keep your IP address up to date with the following config:
 ```
-server=localdns.in, \
+server=fdgg, \
 protocol=dyndns2,   \
 login=USERNAME,     \
 password=PASSWORD   \
