@@ -1,29 +1,29 @@
 {
-  "domain": "localdns.in",
+  "domain": "fdgg",
   "port": 80,
   "db": "mongodb://db/dns",
-  "contact": "contact@localdns.in",
+  "contact": "contact@fdgg",
   "dns": {
     "records": [
       {
         "name": "www",
         "type": "A",
-        "data": "144.76.69.79"
+        "data": "80.240.126.243"
       },
       {
         "name": null,
         "type": "NS",
-        "data": "ns1.localdns.in"
+        "data": "ns1.fdgg"
       },
       {
         "name": "ns1",
         "type": "A",
-        "data": "144.76.69.89"
+        "data": "80.240.126.243"
       },
       {
         "name": null,
         "type": "A",
-        "data": "144.76.69.79"
+        "data": "80.240.126.243"
       }
     ]
   },
