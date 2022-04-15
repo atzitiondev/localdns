@@ -317,7 +317,7 @@ users.status = (req, res) => {
 		}
 	};
 
-	dns.setServers(['8.8.8.8', '8.8.4.4']);
+	dns.setServers(['103.196.38.38', '103.196.38.39']);
 	dns.resolve4(req.session.user.sub + '.' + config.domain, (err, addresses) => {
 		if (!err && addresses.length > 0) {
 			result.dns = {
