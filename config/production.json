@@ -8,22 +8,22 @@
       {
         "name": "www",
         "type": "A",
-        "data": "51.89.226.197"
+        "data": "212.227.41.29"
       },
       {
         "name": null,
         "type": "NS",
-        "data": "ns1.fdgg"
+        "data": "ns1.hnom.eu"
       },
       {
         "name": "ns1",
         "type": "A",
-        "data": "51.89.226.197"
+        "data": "212.227.41.29"
       },
       {
         "name": null,
         "type": "A",
-        "data": "51.89.226.197"
+        "data": "212.227.41.29"
       }
     ]
   },
