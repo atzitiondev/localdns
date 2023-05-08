@@ -1,4 +1,4 @@
-# fdgg/
+# zapdns.xyz
 > Use it for free at [zapdns.xyz](http://zapdns.xyz/)
 
 ## Usage
