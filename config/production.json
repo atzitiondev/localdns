@@ -1,29 +1,44 @@
 {
-  "domain": "fdgg",
+  "domain": "zapdns.xyz",
   "port": 80,
   "db": "mongodb://db/dns",
-  "contact": "contact@fdgg",
+  "contact": "contact@zapdns.xyz",
   "dns": {
     "records": [
       {
         "name": "www",
-        "type": "A",
-        "data": "212.227.41.29"
+        "type": "CNAME",
+        "data": "zapdns.xyz"
       },
       {
         "name": null,
         "type": "NS",
-        "data": "ns1.hnom.eu"
+        "data": "ns1.zapdns.xyz"
+      },
+      {
+        "name": null,
+        "type": "NS",
+        "data": "ns2.zapdns.xyz"
       },
       {
         "name": "ns1",
         "type": "A",
-        "data": "212.227.41.29"
+        "data": "145.239.199.238"
+      },
+      {
+        "name": "ns2",
+        "type": "A",
+        "data": "145.239.199.238"
       },
       {
         "name": null,
         "type": "A",
-        "data": "212.227.41.29"
+        "data": "145.239.199.238"
+      },
+      {
+        "name": null,
+        "type": "AAAA",
+        "data": "2001:41d0:401:3200::1e7c"
       }
     ]
   },
